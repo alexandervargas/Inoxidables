@@ -1,0 +1,105 @@
+a:hover {
+  color: #d05943;
+}
+input:focus, textarea:focus {
+  border-color: #d05943 !important;
+}
+.header-top {
+  background: #d05943 none repeat scroll 0 0;
+}
+.social-link a {
+  color: #d05943;
+}
+.mainmenu ul li a:hover{
+  color:#d05943;
+}
+.mainmenu ul li.active a {
+  color: #d05943;
+}
+.cd-headline.clip span {
+  color: #d05943;
+}
+.heading > h2::before {
+  background: #d05943 none repeat scroll 0 0;
+}
+.heading > h2::after {
+  background: #d05943 none repeat scroll 0 0;
+}
+.heading::before {
+  background: #d05943 none repeat scroll 0 0;
+}
+.heading::after {
+  background: #d05943 none repeat scroll 0 0;
+}
+.progress-bar {
+  background-color: #d05943;
+}
+.about-box-icon i {
+  color: #d05943;
+}
+.service-area {
+  background: #d05943 none repeat scroll 0 0;
+}
+.service-sin:hover .service-sin-icon i {
+  color: #d05943;
+}
+.portfolio-nav ul li.active {
+  background: #d05943 none repeat scroll 0 0;
+}
+.portfolio-nav ul li.active::after {
+  background: #d05943 none repeat scroll 0 0;
+}
+.portfolio-thumb a::before {
+  background: #d05943 none repeat scroll 0 0;
+}
+.portfolio-zoom {
+  color: #d05943;
+}
+.testimonial-area {
+  background: #d05943 none repeat scroll 0 0;
+}
+.owl-theme .owl-controls .owl-buttons div:hover{
+  color:#d05943;
+}
+.pricing-quality h5 {
+  color: #d05943;
+}
+.pricing-btn,.banner-text-btn {
+  background: #d05943 none repeat scroll 0 0;
+}
+.pricing-sin:hover .pricing-btn {
+  background: #d05943 none repeat scroll 0 0;
+}
+.team-member-link {
+  background: #d05943 none repeat scroll 0 0;
+}
+.team-carousel.owl-theme .owl-controls .owl-page span {
+  background: #d05943 none repeat scroll 0 0;
+}
+.blog-content {
+  background: #d05943 none repeat scroll 0 0;
+}
+.m-btn-submit > button {
+  background: #d05943 none repeat scroll 0 0;
+}
+.footer-social-icons > a {
+  background: #d05943 none repeat scroll 0 0;
+}
+#scrollUp {
+  background: #d05943 none repeat scroll 0 0;
+}
+.blog-social-link a {
+  background: #d05943 none repeat scroll 0 0;
+}
+.blogdetails-comment-form .m-btn-submit {
+  background: #d05943 none repeat scroll 0 0;
+}
+.blog-sidebar-sin a:hover{
+  color:#d05943;
+}
+.demo_changer .demo-icon {
+  background: #d05943 none repeat scroll 0 0;
+}
+.postmore {
+  background: #d05943 none repeat scroll 0 0;
+}

@@ -1,0 +1,105 @@
+a:hover {
+  color: #db3d3d;
+}
+input:focus, textarea:focus {
+  border-color: #db3d3d !important;
+}
+.header-top {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.social-link a {
+  color: #db3d3d;
+}
+.mainmenu ul li a:hover{
+  color:#db3d3d;
+}
+.mainmenu ul li.active a {
+  color: #db3d3d;
+}
+.cd-headline.clip span {
+  color: #db3d3d;
+}
+.heading > h2::before {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.heading > h2::after {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.heading::before {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.heading::after {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.progress-bar {
+  background-color: #db3d3d;
+}
+.about-box-icon i {
+  color: #db3d3d;
+}
+.service-area {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.service-sin:hover .service-sin-icon i {
+  color: #db3d3d;
+}
+.portfolio-nav ul li.active {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.portfolio-nav ul li.active::after {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.portfolio-thumb a::before {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.portfolio-zoom {
+  color: #db3d3d;
+}
+.testimonial-area {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.owl-theme .owl-controls .owl-buttons div:hover{
+  color:#db3d3d;
+}
+.pricing-quality h5 {
+  color: #db3d3d;
+}
+.pricing-btn,.banner-text-btn {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.pricing-sin:hover .pricing-btn {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.team-member-link {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.team-carousel.owl-theme .owl-controls .owl-page span {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.blog-content {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.m-btn-submit > button {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.footer-social-icons > a {
+  background: #db3d3d none repeat scroll 0 0;
+}
+#scrollUp {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.blog-social-link a {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.blogdetails-comment-form .m-btn-submit {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.blog-sidebar-sin a:hover{
+  color:#db3d3d;
+}
+.demo_changer .demo-icon {
+  background: #db3d3d none repeat scroll 0 0;
+}
+.postmore {
+  background: #db3d3d none repeat scroll 0 0;
+}
