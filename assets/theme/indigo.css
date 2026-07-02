@@ -5,16 +5,16 @@ input:focus, textarea:focus {
   border-color: #243ee9 !important;
 }
 .header-top {
-  background: #243ee9 none repeat scroll 0 0;
+  background: #243ee9;
 }
-.social-link a {
+.social-mini a {
+  color: rgba(255,255,255,0.7);
+}
+.navbar-nav > li > a:hover {
   color: #243ee9;
 }
-.mainmenu ul li a:hover{
-  color:#243ee9;
-}
-.mainmenu ul li.active a {
-  color: #3f51b5;
+.navbar-nav > li.active > a {
+  color: #243ee9;
 }
 .cd-headline.clip span {
   color: #3f51b5;
@@ -31,70 +31,19 @@ input:focus, textarea:focus {
 .heading::after {
   background: #243ee9 none repeat scroll 0 0;
 }
-.progress-bar {
-  background-color: #243ee9;
-}
-.about-box-icon i {
-  color: #d3d5dd;
-}
-.service-area {
-  background: #243ee9 none repeat scroll 0 0;
-}
-.service-sin:hover .service-sin-icon i {
-  color: #243ee9;
-}
 .filter-chip.active {
   background: #243ee9 none repeat scroll 0 0;
 }
 .product-card-category {
   color: #243ee9;
 }
-.testimonial-area {
-  background: #243ee9 none repeat scroll 0 0;
-}
-.owl-theme .owl-controls .owl-buttons div:hover{
-  color:#243ee9;
-}
-.pricing-quality h5 {
-  color: #243ee9;
-}
-.pricing-btn,.banner-text-btn {
-  background: #243ee9 none repeat scroll 0 0;
-}
-.pricing-sin:hover .pricing-btn {
-  background: #243ee9 none repeat scroll 0 0;
-}
-.team-member-link {
-  background: #243ee9 none repeat scroll 0 0;
-}
-.team-carousel.owl-theme .owl-controls .owl-page span {
-  background: #243ee9 none repeat scroll 0 0;
-}
-.blog-content {
-  background: #243ee9 none repeat scroll 0 0;
-}
-.m-btn-submit > button {
-  background: #243ee9 none repeat scroll 0 0;
+.banner-text-btn > a {
+  background: #243ee9;
 }
 .footer-social-icons > a {
   background: #243ee9 none repeat scroll 0 0;
 }
 #scrollUp {
-  background: #243ee9 none repeat scroll 0 0;
-}
-.blog-social-link a {
-  background: #243ee9 none repeat scroll 0 0;
-}
-.blogdetails-comment-form .m-btn-submit {
-  background: #243ee9 none repeat scroll 0 0;
-}
-.blog-sidebar-sin a:hover{
-  color:#243ee9;
-}
-.demo_changer .demo-icon {
-  background: #243ee9 none repeat scroll 0 0;
-}
-.postmore {
   background: #243ee9 none repeat scroll 0 0;
 }
 
