@@ -291,12 +291,22 @@ body.no-scroll {
 /* --- resto --- */
 .banner-text > h1 {
   font-size: 24px;
+  margin-bottom: 12px;
+}
+.banner-text > p {
+  font-size: 15px;
+  margin-bottom: 24px;
+  line-height: 1.5;
 }
 .banner-area {
-  padding: 100px 0;
+  padding: 140px 0 100px;
 }
 .banner-text-btn {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
+}
+.banner-text-btn > a {
+  padding: 13px 28px;
+  font-size: 11px;
 }
 .about-area {
   padding-top: 100px;
