@@ -9,26 +9,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="Inoxidables, inoxidableswilliam.com, acero inoxidable">
   <meta name="description" content="Fabricantes de maquinas en acero inoxidable, para la industria, o uso domestico">
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/owl.carousel.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Lora:ital@1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/icofont.css">
-  <link rel="stylesheet" href="assets/css/venobox.css">
   <link rel="stylesheet" href="assets/css/animated.css">
   <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
-  <link rel="stylesheet" id="switcher-css" href="assets/styleswitcher/switcher.css"/>    
   <link rel="stylesheet" href="assets/theme/indigo.css" title="indigo">
 
 </head>
-<body data-spy="scroll" data-target=".navbar">
+<body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
 
   <header id="home">
     <div class="header-top">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="contact-way floatleft">
@@ -49,21 +48,21 @@
       </div>
     </div>
     <div id="sticker" class="header-bottom">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div >
             <div class="logo floatleft">
 
               <a href="index.html">
-                <h4 class="titulo"> <strong>Inoxidables William</p></strong></h4>
-                <p class="descripcion"> Tecnología para siempre</p class="descripcion">
+                <h4 class="titulo"><strong>Inoxidables William</strong></h4>
+                <p class="descripcion"> Tecnología para siempre</p>
 
                 </a>
               </div>
               <div class="mainmenu floatright">
                 <div class="navbar navbar-nobg">
                   <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <button type="button" class="navbar-toggle">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
@@ -76,7 +75,6 @@
                       <li class="active"><a class="page-scroll" href="#home">Inicio<div class="ripple-wrapper"></div></a></li>
                       <li><a class="page-scroll" href="#about">Acerca de</a></li>
                       <li><a class="page-scroll" href="#works">Productos</a></li>
-                      <li><a class="page-scroll" href="#testimonial"></a></li>
                       <li><a class="page-scroll" href="#contact">Contacto</a></li>
                       
 
@@ -179,284 +177,28 @@
         </div>      
         <div class="row">
           <div class="col-lg-12">
-            <div class="portfolio-nav">
-              <ul>                                       
-                <li class="active" data-filter="*">Todos</li>
-                <li data-filter=".accesorios">Accesorios</li>
-                <li data-filter=".barandas">Barandas Métalicas</li>
-                <li data-filter=".bombos">Bombos</li>
-                <li data-filter=".desmechadoras">Desmechadoras de carne</li>
-                <li data-filter=".despulpadora">Despulpadoras de Frutas</li>
-                <li data-filter=".empacadora">Empacadora manual</li>
-                <li data-filter=".estufa">Estufa</li>
-                <li data-filter=".licuadora">Licuadoras industriales</li>
-                <li data-filter=".marmita">Marmitas</li>
-                <li data-filter=".mesas">Mesa</li>
-                <li data-filter=".Mezcladoras">Mezcladoras</li>
-                <li data-filter=".ollas">Ollas</li>
-                <li data-filter=".sarten">Sartén vasculante</li>
-                <li data-filter=".tanque">Tanque</li>
-              </ul>
+            <div class="catalog-filters">
+              <button class="filter-chip active" data-filter="*">Todos</button>
+              <button class="filter-chip" data-filter="accesorios">Accesorios</button>
+              <button class="filter-chip" data-filter="barandas">Barandas Metálicas</button>
+              <button class="filter-chip" data-filter="bombos">Bombos</button>
+              <button class="filter-chip" data-filter="desmechadoras">Desmechadoras</button>
+              <button class="filter-chip" data-filter="despulpadora">Despulpadoras</button>
+              <button class="filter-chip" data-filter="empacadora">Empacadoras</button>
+              <button class="filter-chip" data-filter="estufa">Estufas</button>
+              <button class="filter-chip" data-filter="licuadora">Licuadoras</button>
+              <button class="filter-chip" data-filter="marmita">Marmitas</button>
+              <button class="filter-chip" data-filter="mesas">Mesas</button>
+              <button class="filter-chip" data-filter="mezcladoras">Mezcladoras</button>
+              <button class="filter-chip" data-filter="ollas">Ollas</button>
+              <button class="filter-chip" data-filter="sarten">Sartenes</button>
+              <button class="filter-chip" data-filter="tanque">Tanques</button>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-12">
-            <div class="portfolio-items portfolio-mesonry">
-
-              <div class="single-portfolio accesorios">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/accesorios.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">accesorios</a></h4>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/accesorios.png"><i class="icofont icofont-hand-drag1"></i></a>
-              </div> 
-              <div class="single-portfolio  accesorios">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/lavamanos.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">lavamanos</a></h4>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/lavamanos.png"><i class="icofont icofont-hand-drag1"></i></a>
-              </div> 
-
-
-              <div class="single-portfolio desmechadoras">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/desmechadora.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">desmechadoras</a></h4>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/desmechadora.png"><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-
-              <div class="single-portfolio desmechadoras">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/desmechadoracarne.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">desmechadoras</a></h4>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/desmechadoracarne.png"><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-              
-              <div class="single-portfolio despulpadora">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/despulpadora.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Despulpadora</a></h4>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/despulpadora.png"><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-
-
-           
-             
-              <div class="single-portfolio barandas">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/barandas.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Barandas Métalicas</a></h4>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/barandas.png"><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-
-              <div class="single-portfolio licuadora">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/portfolio/7.jpg" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Licuadora</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/portfolio/7.jpg"><i class="icofont icofont-hand-drag1"></i></a>
-              </div>
-
-              <div class="single-portfolio licuadora">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/licuadora-industrial.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Licuadora Industrial</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/licuadora-industrial.png"><i class="icofont icofont-hand-drag1"></i></a>
-              </div>
-
-
-
-              <div class="single-portfolio despulpadora">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/portfolio/6.jpg" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Despulpadora</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/portfolio/6.jpg"><i class="icofont icofont-hand-drag1"></i></a>
-              </div>   
-              <div class="single-portfolio bombos">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/bombos.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Bombos</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/bombos.png    "><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-
-              <div class="single-portfolio despulpadora">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/despulpadora_horizontal.jpeg" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Despulpadora Horizontal</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/despulpadora_horizontal.jpeg    "><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-
-              <div class="single-portfolio despulpadora">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/despulpadora_vertical.jpeg" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Despulpadora Vertical</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/despulpadora_vertical.jpeg    "><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-
-              <div class="single-portfolio empacadora">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/empacadora_manual.jpeg" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Empacadora manual</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/empacadora_manual.jpeg    "><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-              <div class="single-portfolio estufa">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/estufa.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Estufa</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/estufa.png" ><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-              <div class="single-portfolio marmita">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/marmita.png" alt="Marmita" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Marmita</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/marmita.png    "><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-
-              <div class="single-portfolio mesas">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/mesa.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Mesa</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/mesa.png"><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-
-              <div class="single-portfolio marmita">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/marmita-2.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Marmita</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/marmita-2.png"><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-
-              <div class="single-portfolio Mezcladoras">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/mezcladora.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Mezcladora</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/mezcladora.png"><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-
-              <div class="single-portfolio Mezcladoras">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/mezcladora2.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Mezcladora</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/mezcladora2.png"><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-
-              <div class="single-portfolio ollas">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/ollas.jpg" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Ollas Métalicas</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/ollas.jpg"><i class="icofont icofont-hand-drag1"></i></a>
-              </div> 
-
-              <div class="single-portfolio sarten">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/sarten.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Sarten </a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/sarten.png"><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-
-              <div class="single-portfolio tanque">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/tanque.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Tanque</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/tanque.png"><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-
-              <div class="single-portfolio tanque">
-                <div class="portfolio-thumb">
-                  <a href="#"><img src="assets/images/tanqueinoxidable.png" alt="" /></a>
-                </div>
-                <div class="portfolio-desc">
-                  <h4><a href="#">Tanque</a></h4>
-                  <small class="portfolio-category"></small>
-                </div>
-                <a class="venobox vbox-item portfolio-zoom" data-gall="myGallery" href="assets/images/tanqueinoxidable.png"><i class="icofont icofont-hand-drag1"></i></a>
-              </div>  
-
-
-             
-
-            </div>
+            <div class="product-grid" id="catalogContainer"></div>
           </div>
         </div>
       </div>
@@ -465,7 +207,7 @@
 
     <!--contanct-area-start-->
     <div id="contact" class="contact-area">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <div class="heading text-center">
@@ -519,7 +261,7 @@
 
     <!--footer-area start-->
     <footer class="footer-area text-center">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row"> 
           <div class="col-sm-12">
             <div class="footer-text">
@@ -530,8 +272,15 @@
       </div>
     </footer>
     <!--footer-area end-->    
-    <!-- all js here -->
-    <!-- jquery latest version -->
+    <div id="lightbox">
+      <button class="lightbox-close">&times;</button>
+      <button class="lightbox-prev">&lsaquo;</button>
+      <button class="lightbox-next">&rsaquo;</button>
+      <div class="lightbox-content">
+        <img class="lightbox-image" src="" alt="">
+      </div>
+      <div class="lightbox-title"></div>
+    </div>
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -541,16 +290,6 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-    <script src="assets/js/vendor/jquery-1.12.0.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/venobox.min.js"></script>
-    <script src="assets/js/animated.js"></script>
-    <script src="assets/js/parralax.js"></script>  
-    <script src="assets/js/form-validator.min.js"></script>    
-    <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 

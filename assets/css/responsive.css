@@ -3,11 +3,13 @@
 .footer-social-icons > a {
   margin-right: 0;
 }
-
+.product-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
 
 }
 
- 
+  
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 .about-area {
@@ -28,9 +30,6 @@
 }
 .about-img {
   margin-top: 50px;
-}
-.portfolio-nav ul li {
-  font-size: 10px;
 }
 .about-details {
   margin-bottom: 80px;
@@ -63,24 +62,12 @@
 .portfolio-area {
   padding: 100px 0 75px;
 }
-.portfolio-desc {
-  left: 5%;
-  right: 5px;
-  top: 2%;
+.product-grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
-.portfolio-desc h4 a {
-  font-size: 16px;
-  margin-bottom: 0;
-}
-.portfolio-desc .portfolio-category {
-  font-size: 12px;
-  margin-bottom: 0;
-}
-.portfolio-zoom {
-  font-size: 24px;
-  height: 50px;
-  line-height: 50px;
-  width: 50px;
+.product-card-image {
+  height: 200px;
 }
 .service-features-area {
   padding: 100px 0;
@@ -118,10 +105,9 @@
 }
 
 
-
 }
 
- 
+  
 /* small mobile :320px. */
 @media (max-width: 767px) {
 .container {width:300px}
@@ -190,22 +176,24 @@
 .service-row {
   margin-bottom: 0;
 }
-.portfolio-nav {
-  margin-top: -20px;
+.product-grid {
+  grid-template-columns: 1fr;
+  gap: 16px;
 }
-.portfolio-nav ul li {
-  display: block;
-  margin-bottom: 20px;
+.product-card-image {
+  height: 200px;
 }
-.single-portfolio {
-  width: 100%;
+.catalog-filters {
+  gap: 6px;
+  justify-content: flex-start;
+  margin-bottom: 24px;
 }
-.portfolio-desc {
-  left: 5%;
-  top: 10px;
+.filter-chip {
+  font-size: 11px;
+  padding: 6px 14px;
 }
 .portfolio-area {
-  padding: 100px 0 74px;
+  padding: 80px 0 80px;
 }
 .testimonial-area {
   padding: 100px 0 62px;
@@ -296,7 +284,7 @@
 
  
 }
- 
+
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .container {width:450px}
@@ -314,6 +302,9 @@
 }
 .testimonial-sin-2 .testimonial-author {
   padding-right: 30px;
+}
+.product-grid {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 

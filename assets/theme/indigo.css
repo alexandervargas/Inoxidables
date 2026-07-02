@@ -43,17 +43,10 @@ input:focus, textarea:focus {
 .service-sin:hover .service-sin-icon i {
   color: #243ee9;
 }
-.portfolio-nav ul li.active {
+.filter-chip.active {
   background: #243ee9 none repeat scroll 0 0;
 }
-.portfolio-nav ul li.active::after {
-  background: #243ee9 none repeat scroll 0 0;
-}
-.portfolio-thumb a::before {
-  background: rgba(19, 25, 62, 0.24) none repeat scroll 0 0;
-
-}
-.portfolio-zoom {
+.product-card-category {
   color: #243ee9;
 }
 .testimonial-area {
