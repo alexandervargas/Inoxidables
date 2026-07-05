@@ -176,7 +176,7 @@
       if (item.description) {
         html += '    <p class="product-card-desc">' + item.description + '</p>';
       }
-      html += '    <button class="product-card-add-btn" data-id="' + i + '"><i class="fa fa-cart-plus"></i> Añadir al carrito</button>';
+      html += '    <button class="product-card-add-btn" data-id="' + i + '" aria-label="Añadir al carrito" title="Añadir al carrito"><i class="fa fa-cart-plus"></i></button>';
       html += '  </div>';
       html += '</div>';
     });
@@ -355,11 +355,11 @@
       if (btn && !btn.disabled) {
         var origHTML = btn.innerHTML;
         btn.disabled = true;
-        btn.innerHTML = '<span class="btn-spinner"></span> Agregando...';
+        btn.innerHTML = '<span class="btn-spinner"></span>';
 
         setTimeout(function () {
           addToCart(parseInt(btn.dataset.id, 10));
-          btn.innerHTML = '<span class="btn-check">&#10003;</span> Agregado';
+          btn.innerHTML = '<span class="btn-check">&#10003;</span>';
 
           setTimeout(function () {
             btn.disabled = false;

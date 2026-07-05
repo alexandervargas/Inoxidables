@@ -401,29 +401,25 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section 
 /* add-to-cart button on product cards */
 .product-card-add-btn {
   align-items: center;
+  justify-content: center;
   background: #fff;
   border: 2px solid var(--color-primary);
-  border-radius: 8px;
+  border-radius: 10px;
   color: var(--color-primary);
   cursor: pointer;
   display: inline-flex;
-  font-family: var(--font-body);
-  font-size: 14px;
-  font-weight: 700;
-  gap: 8px;
-  letter-spacing: 0.3px;
-  margin-top: auto;
-  padding: 11px 24px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin-top: 2px;
   transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
-  width: 100%;
-  justify-content: center;
-  line-height: 1.3;
   box-shadow: 0 2px 8px rgba(36,62,233,0.12);
   position: relative;
-  overflow: hidden;
 }
 .product-card-add-btn .fa {
-  font-size: 16px;
+  font-size: 18px;
 }
 .product-card-add-btn:hover {
   background: var(--color-primary);
@@ -433,7 +429,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section 
   box-shadow: 0 6px 20px rgba(36,62,233,0.25);
 }
 .product-card-add-btn:active {
-  transform: translateY(0) scale(0.98);
+  transform: translateY(0) scale(0.92);
 }
 .product-card-add-btn:disabled {
   opacity: 0.7;
@@ -444,8 +440,8 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section 
 /* spinner inside button */
 .product-card-add-btn .btn-spinner {
   display: inline-block;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   border: 2px solid var(--color-primary);
   border-top-color: transparent;
   border-radius: 50%;
@@ -458,6 +454,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section 
 .product-card-add-btn .btn-check {
   display: inline-block;
   font-size: 16px;
+  font-weight: 700;
   animation: btnCheckPop 0.3s ease;
 }
 @keyframes btnSpin {
@@ -1094,9 +1091,12 @@ div#preloader {
 }
 .product-card-body {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
   flex: 1;
   padding: 16px 18px 20px;
+  gap: 4px 0;
 }
 .product-card-category {
   color: var(--color-primary);
@@ -1104,8 +1104,9 @@ div#preloader {
   font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.8px;
-  margin-bottom: 4px;
+  margin-bottom: 0;
   text-transform: uppercase;
+  width: 100%;
 }
 .product-card-title {
   color: var(--color-heading);
@@ -1113,13 +1114,17 @@ div#preloader {
   font-size: 16px;
   font-weight: 600;
   line-height: 1.3;
-  margin: 0 0 8px;
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+  padding-right: 10px;
 }
 .product-card-desc {
   color: #777;
   font-size: 15px;
   line-height: 1.5;
-  margin: 0 0 12px;
+  margin: 0 0 0;
+  width: 100%;
 }
 .product-card-btn {
   align-items: center;

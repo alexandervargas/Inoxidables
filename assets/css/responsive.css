@@ -255,26 +255,27 @@ body.no-scroll {
 }
 .product-card-body {
   padding: 12px 14px 14px;
+  gap: 3px 0;
 }
 .product-card-category {
   font-size: 9px;
-  margin-bottom: 2px;
   letter-spacing: 0.6px;
 }
 .product-card-title {
   font-size: 17px;
   font-weight: 700;
-  margin: 0 0 4px;
+  padding-right: 8px;
 }
 .product-card-desc {
   font-size: 13px;
   line-height: 1.4;
-  margin: 0 0 10px;
 }
-/* --- botón add-to-cart más alto para toque --- */
+/* --- botón add-to-cart compacto móvil --- */
 .product-card-add-btn {
-  padding: 14px 24px;
-  font-size: 15px;
+  width: 38px;
+  height: 38px;
+  border-radius: 9px;
+  margin-top: 1px;
 }
 .product-card-add-btn .fa {
   font-size: 17px;
