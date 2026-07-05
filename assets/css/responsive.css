@@ -302,6 +302,14 @@ body.no-scroll {
   right: 0;
 }
 /* --- resto --- */
+#whatsappFloat {
+  width: 44px !important;
+  height: 44px !important;
+  line-height: 44px !important;
+  font-size: 24px !important;
+  bottom: 24px !important;
+  left: 16px !important;
+}
 .banner-text > h1 {
   font-size: 24px;
   margin-bottom: 12px;

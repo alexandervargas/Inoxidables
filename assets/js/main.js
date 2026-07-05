@@ -112,6 +112,30 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
+  /* Floating WhatsApp button */
+  var waBtn = document.createElement('a');
+  waBtn.id = 'whatsappFloat';
+  waBtn.href = 'https://wa.me/' + WHATSAPP_NUM;
+  waBtn.target = '_blank';
+  waBtn.rel = 'noopener';
+  waBtn.title = 'Escríbenos por WhatsApp';
+  waBtn.style.position = 'fixed';
+  waBtn.style.bottom = '30px';
+  waBtn.style.left = '30px';
+  waBtn.style.width = '50px';
+  waBtn.style.height = '50px';
+  waBtn.style.lineHeight = '50px';
+  waBtn.style.textAlign = 'center';
+  waBtn.style.fontSize = '28px';
+  waBtn.style.color = '#fff';
+  waBtn.style.background = '#25D366';
+  waBtn.style.borderRadius = '50%';
+  waBtn.style.zIndex = '999';
+  waBtn.style.cursor = 'pointer';
+  waBtn.style.boxShadow = '0 2px 10px rgba(0,0,0,0.2)';
+  waBtn.innerHTML = '<i class="fa fa-whatsapp"></i>';
+  document.body.appendChild(waBtn);
+
   /* Word animation (cd-headline clip) */
   (function initHeadline() {
     var wrapper = document.querySelector('.cd-headline.clip .cd-words-wrapper');
