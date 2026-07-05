@@ -113,9 +113,10 @@
   });
 
   /* Floating WhatsApp button */
+  var waNum = '573134351723';
   var waBtn = document.createElement('a');
   waBtn.id = 'whatsappFloat';
-  waBtn.href = 'https://wa.me/' + WHATSAPP_NUM;
+  waBtn.href = 'https://wa.me/' + waNum;
   waBtn.target = '_blank';
   waBtn.rel = 'noopener';
   waBtn.title = 'Escríbenos por WhatsApp';
